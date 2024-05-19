@@ -5,9 +5,9 @@ import edu.kis.vh.nursery.factory.RhymersFactory;
 
 class RhymersDemo {
 
-    public static final int ARRAY_SIZE = 15;
-    public static final int RHYMERS_LAST_INDEX = 3;
-    public static final int MAX_RANGE = 20;
+    private static final int ARRAY_SIZE = 15;
+    private static final int RHYMERS_LAST_INDEX = 3;
+    private static final int MAX_RANGE = 20;
 
     public static void main(String[] args) {
         RhymersFactory factory = new DefaultRhymersFactory();
