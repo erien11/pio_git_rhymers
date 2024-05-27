@@ -36,6 +36,6 @@ class RhymersDemo {
 
         System.out.println("total rejected is "
                 + ((HanoiRhymer) rhymers[RHYMERS_LAST_INDEX]).reportRejected());
-    }
+    }//TODO: refactor function - split it into functions to make it more readable
 
 }
